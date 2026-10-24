@@ -1,0 +1,7 @@
+﻿node_modules/
+public_html/node_modules/
+nbproject/private/
+build/
+dist/
+.DS_Store
+Thumbs.db
