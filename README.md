@@ -4,9 +4,9 @@ Este proyecto es una escena 3D interactiva desarrollada con **Three.js** (WebGL)
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
-### 🪐 1. Sistema Solar Dinámico
+### 1. Sistema Solar Dinámico
 - **El Sol:** Ubicado en el centro de la escena (`0, 0, 0`), con textura propia, halo luminoso (`THREE.Sprite` con `AdditiveBlending`), rotación sobre su eje y un ciclo continuo de pulsación (expansión y contracción de escala).
 - **Planetas con Órbitas y Rotación Propia:**
   - **Mercurio** (`mercurio.jpg`)
@@ -23,7 +23,7 @@ Este proyecto es una escena 3D interactiva desarrollada con **Three.js** (WebGL)
   - Fondo espacial inmersivo (`fondo espacio.jpg`).
   - Iluminación combinada (`PointLight`, `AmbientLight` y `DirectionalLight`) y ayuda visual de ejes (`THREE.AxesHelper`).
 
-### 🤖 2. Personaje 3D Controlable (`RobotExpressive.glb`)
+### 2. Personaje 3D Controlable (`RobotExpressive.glb`)
 - Carga de modelo GLTF/GLB con extracción automática de clips de animación mediante `THREE.AnimationMixer` (`Idle`, `Walking`, etc.).
 - Movimiento sobre el plano 3D calculando su vector de dirección frontal (`getWorldDirection`) y rotación sobre el eje mundial `Y` (`rotateOnWorldAxis`).
 - **Sistema de Disparo Espacial:**
@@ -33,7 +33,7 @@ Este proyecto es una escena 3D interactiva desarrollada con **Three.js** (WebGL)
 
 ---
 
-## 🎮 Controles Interactivos
+## Controles Interactivos
 
 ### Teclado (Control del Robot)
 | Tecla | Acción |
@@ -52,7 +52,7 @@ Este proyecto es una escena 3D interactiva desarrollada con **Three.js** (WebGL)
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Modelo3D/
@@ -98,7 +98,7 @@ Modelo3D/
 
 ---
 
-## 🚀 Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 Debido a las políticas de seguridad de los navegadores modernos (**CORS**), los modelos 3D (`.glb`) y las texturas requieren servirse a través de un servidor HTTP local en lugar de abrir `index.html` directamente con `file://`.
 
