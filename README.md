@@ -1,4 +1,12 @@
+<div align="center">
+
 # 🌌 Modelo3D — Simulación Interactiva del Sistema Solar y Robot 3D
+
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+</div>
 
 Este proyecto es una escena 3D interactiva desarrollada con **Three.js** (WebGL) que combina una simulación dinámica del **Sistema Solar** con un personaje 3D animado (**RobotExpressive**) controlable mediante el teclado y con sistema de disparo y efectos de sonido.
 
@@ -131,3 +139,9 @@ Luego abre tu navegador en `http://localhost:8000`.
 - **JavaScript (ES6+)**
 - **[Three.js](https://threejs.org/)** (`WebGLRenderer`, `GLTFLoader`, `OrbitControls`, `AnimationMixer`, `AudioLoader`)
 - **Apache NetBeans / VS Code**
+
+---
+
+## 📄 Licencia
+
+Este proyecto se distribuye bajo la licencia **MIT**. Para más detalles, consulta el archivo [`LICENSE`](LICENSE).
